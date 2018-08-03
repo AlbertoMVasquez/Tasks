@@ -1,5 +1,7 @@
 TASKS:
 
+*) Leer notas NLFFF de Fede.
+
 1) KCOR:
 	- check auto_cv_brent progress.
 
