@@ -1,0 +1,85 @@
+TASKS:
+
+1) KCOR:
+	- check auto_cv_brent progress.
+
+2) Tom-code:
+	- Revisar los cambios con Rich. Pulir. Una vez que esté todo, compare.c to match build_subA.c in terms of handling COMP.
+	- geomtest to find source of artifacts.
+(*)	  Keep comparing outputs of two experiments b4 doing anyhyhing else
+(*)       Try with a known x-object, a radially stratified spherically symmetric sphere, and also a cylindrical object, for example.
+(*)	- to use auto_cv_brent with multiple reg matrices, expand IDL derivs_hollowsph.pro to create R3 matrix being the stack of hplaplac and d2r.
+
+3) Multi-instrumental multi-wavelength tom: 
+	- ingestion of tomographies and creation of y-vector
+	- cost function
+	- minimization scheme
+
+4) CoMP:
+	- check auto_cv_brent progress.
+	- absolute units in comp_prep.pro tool and compare with synth intensity.
+
+----------------------------------------------------------------
+
+1) geomtest.c to find geometric bug in LOS calculation.
+
+2) Finish paper seed:
+	- nominal/extended telemetry orbits
+	- heliosphere is not rotating rigidly, so extended telemetry periods could not be as suseful as shown in our work. pose the future plan of incorprating a differential rotation model.
+	- main utility of tomography is at lower heights in the latter orbits. Even if reduced to about 1/2 of the longitudes, tomography will be possible with much shorter gathering-time periods. For example, in Orbit 24, tomography in the range 2 to 8 Rsun will be possible with only 3 days of daata gathering around perihelion, with data taken within a maximum dstance of 0.1 AU.
+	- reduce the number of plots, don't show crap.
+
+
+
+-------------------------OLD------------------------------------------------
+PRIORITY-1
+
+* Implement K-cor tomography and perform a reconstruction of of new rotation using K-cor and also AIA-DEMT. Diego. DONE.
+
+* Check formulae for pB and BK, including units.
+
+* KCOR Tom: 1) try different grids (ongoing)
+            2) try different reg. levels once a grid is decided. (ongoing)
+            3) compare.c images, analyze units. (ongoing)
+            4) Analyze binning of many images, how much improvement can we get.
+            5) Decide CR, get also LAM Lasco-C2 images, compare radial profiles in Streamers, Diego.
+            6) perform and compare: KCOR-tom, DEMT, LASCO-tom, LASCO+KCOR-tom. Diego.
+
+* Determine problem with artifacts in synthetic images, likely to be present in build_subA.c too, due to LOSs nearly parallel to cells' boundaries. Use RAYDIAGNOSE and geomtest.c. Add other tests if needed. Most probably problem is related to handling of the "grideps" variable in buildrow.c
+
+* FoF-8 and COLAGE-XI talks.
+
+* New imagecheck.pro. Underway. Diego is in charge.
+
+* Do Coverage plots of planned Science orbits (r < 0.25 AU), and perform Orbit 01 reconstruction bsed only on that data. DONE.
+
+* Do the math of p_opt for hollow tom with both Npixels and norms. Get back to Diego. DONE.
+
+* Make a Longitude-RadEast/RadWest plot of the time series for each orbit to show the space (rad-lon) of data coverage for tomography. Overplot WISPR-I and -O with different colors. Make another one also overplotting complementary coverage that would be obtained by roll-opps. DONE.
+
+* Make WISPR-I/O tomography using fake circular orbits, so that height coverage is constant over longitude. This aims at proving that all codes are correctly working with WISPR. DONE.
+
+* Re-do real and circular orbits with 3-reg matrices and idendity. DONE. But must be re-done when these matrices are correctly implemented.
+
+* Add IDENTITY matrix to regularization matrix. DONE, NOT RIGHT YET: there are problem with both 3regmat and identity.
+
+* Compare CR-2081 AWSoM model with LAM LASCO-C2 images. DONE.
+
+* Ordenar y depurar el directorio /data1/work/SPP/SORBET_VIZZER_WISPR_RevA/ y lo que contiene. wispr_tool debería estar llamando kernels agrupados o bien en su directorio de SolarSoft o bien en UN SOLO directorio propio, fácil de trackear. Asegurarse de esto.
+
+PRIORITY-2
+
+* Put into #include files all shared code between build_subA.c and compare.c, evaluating first how many #include files this approach would take. 
+
+* Organize better printouts, as I added a few. Put them between an appropiate pre-processor directive.
+
+* Implement COMP tomography.
+
+* Sin(theta) grid.
+
+TOMOGRAPHY
+
+* Read papers on regularization and read matrix theory
+
+
+
