@@ -7,7 +7,6 @@ TASKS:
 	- Revisar los cambios con Rich. Pulir. Una vez que esté todo, compare.c to match build_subA.c in terms of handling COMP.
 	- geomtest to find source of artifacts.
 (DONE)	  Keep comparing outputs of two geomtest.c experiments b4 doing anyhyhing else.
-(*)       Try with a known x-object, a radially stratified spherically symmetric sphere, and also a cylindrical object, for example.
 (*)	- to use auto_cv_brent with multiple reg matrices, expand IDL derivs_hollowsph.pro to create R3 matrix being the stack of hplaplac and d2r.
 
 3) Multi-instrumental multi-wavelength tom: 
