@@ -10,7 +10,7 @@ TASKS:
 3) Geomtest to find source of 'artifacts':
 (DONE)	- Compare outputs of two geomtest.c experiments b4 doing anyhyhing else.
 (DONE)  - Try compare.c on synthetic Ne models using WISPR POVs.
-(IN PROGRESS)	- Expand IDL derivs_hollowsph.pro to create R3 matrix being the stack of 2dr and hlaplac.
+(DONE)	- Expand IDL derivs_hollowsph.pro to create R3 matrix being the stack of 2dr and hlaplac.
 
 4) Multi-instrumental multi-wavelength tom: 
 	- ingestion of tomographies and creation of y-vector
