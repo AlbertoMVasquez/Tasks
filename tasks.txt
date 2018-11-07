@@ -1,7 +1,8 @@
 TASKS:
 
 -----------------------PLANNING----------------------------------
-* terminar con refereato de paper Fer.
+
+* Terminar con refereato de paper Fer.
 
 * Proceeding de KCOR, luego mail a Enrico y Rich.
 
