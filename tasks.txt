@@ -1,5 +1,21 @@
 TASKS:
 
+-----------------------PLANNING----------------------------------
+* terminar con refereato de paper Fer.
+
+* Proceeding de KCOR, luego mail a Enrico y Rich.
+
+* Paper WISPR-Tom
+
+* Abstracts ASR de Diego y Ceci, con lista de reviewers:
+     Steven Cranmer (Steven.Cranmer@lasp.colorado.edu)
+     Didier Vibert (didier.vibert@lam.fr)
+
+* Puede que FBE-195 de CR-2082 esté mal?
+  Sino intentar un prche en LDEM_v3 para generar mapas con mas resultados.
+
+-----------------------CODING------------------------------------
+
 1) KCOR:
 	- check auto_cv_brent progress.
 
@@ -22,12 +38,6 @@ TASKS:
 	- absolute units in comp_prep.pro tool and compare with synth intensity.
 
 ----------------------------------------------------------------
-
-1) Finish paper seed:
-	- nominal/extended telemetry orbits
-	- heliosphere is not rotating rigidly, so extended telemetry periods could not be as suseful as shown in our work. pose the future plan of incorprating a differential rotation model.
-	- main utility of tomography is at lower heights in the latter orbits. Even if reduced to about 1/2 of the longitudes, tomography will be possible with much shorter gathering-time periods. For example, in Orbit 24, tomography in the range 2 to 8 Rsun will be possible with only 3 days of daata gathering around perihelion, with data taken within a maximum dstance of 0.1 AU.
-	- reduce the number of plots, don't show crap.
 
 
 
