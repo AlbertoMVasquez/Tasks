@@ -9,6 +9,7 @@ TASKS:
 * Paper WISPR-Tom
 
 * Abstracts ASR de Diego y Ceci, con lista de reviewers:
+  Consultar a Rich sino completo lista.
      Steven Cranmer (Steven.Cranmer@lasp.colorado.edu)
      Didier Vibert (didier.vibert@lam.fr)
 
