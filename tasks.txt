@@ -1,21 +1,16 @@
 TASKS:
 
 -----------------------PLANNING----------------------------------
+* Limpieza de discos NALAI. Tarea de fondo para Diego. Todos avisados. Pedir reporte.
 
-* Terminar con refereato de paper Fer.
-
-* Proceeding de KCOR, luego mail a Enrico y Rich.
-
-* Paper WISPR-Tom
-
-* Abstracts ASR de Diego y Ceci, con lista de reviewers:
-  Consultar a Rich sino completo lista.
-     Steven Cranmer (Steven.Cranmer@lasp.colorado.edu)
-     Didier Vibert (didier.vibert@lam.fr)
+* Diego tiene el mail SEMANA-1
 
 * Puede que FBE-195 de CR-2082 esté mal?
   Sino intentar un prche en LDEM_v3 para generar mapas con mas resultados.
 
+* Terminar con refereato de paper Fer.
+
+* Paper WISPR-Tom
 -----------------------CODING------------------------------------
 
 1) KCOR:
