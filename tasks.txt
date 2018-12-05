@@ -1,6 +1,9 @@
 TASKS:
 
 -----------------------PLANNING----------------------------------
+
+* Paper WISPR-Tom
+
 * Limpieza de discos NALAI. Tarea de fondo para Diego. Todos avisados. Pedir reporte.
 
 * Diego tiene el mail SEMANA-1
@@ -10,7 +13,6 @@ TASKS:
 
 * Terminar con refereato de paper Fer.
 
-* Paper WISPR-Tom
 -----------------------CODING------------------------------------
 
 1) KCOR:
